@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans";
+    --cp-dark: hsl(243, 87%, 12%);
+    --cp-desurated: hsl(238, 22%, 44%);
+    --ca-bright: hsl(224, 93%, 58%);
+    --ca-cyan: hsl(170, 45%, 43%);
+    --cn-grayish-blue: hsl(240, 75%, 98%);
+    --cn-gray: hsl(0, 0%, 75%);
+}
+
+body {
+    margin: 0;
+}
+
+header,
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Raleway";
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem 1.5rem;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
